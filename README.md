@@ -14,3 +14,5 @@ python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
 python3 src/main.py
 ```
+
+動作はかなり遅いです。CDNの名前が出てくるまで気長にお待ちください。
