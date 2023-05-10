@@ -1,0 +1,458 @@
+{
+    "Airee": {
+        "cats": [
+            31
+        ],
+        "headers": {
+            "Server": "^Airee"
+        },
+        "icon": "Airee.png",
+        "website": "http://xn--80aqc2a.xn--p1ai"
+    },
+    "Akamai": {
+        "cats": [
+            31
+        ],
+        "description": "Akamai is global content delivery network (CDN) services provider for media and software delivery, and cloud security solutions.",
+        "headers": {
+            "X-Akamai-Transformed": "",
+            "X-EdgeConnect-MidMile-RTT": "",
+            "X-EdgeConnect-Origin-MEX-Latency": ""
+        },
+        "icon": "akamai.svg",
+        "pricing": [
+            "poa"
+        ],
+        "saas": true,
+        "website": "http://akamai.com"
+    },
+    "Amazon Cloudfront": {
+        "cats": [
+            31
+        ],
+        "description": "Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds.",
+        "dns": {
+            "CNAME": "^[a-z0-9]+\\.cloudfront.net\\.?$"
+        },
+        "headers": {
+            "Via": "\\(CloudFront\\)$",
+            "X-Amz-Cf-Id": ""
+        },
+        "icon": "Amazon-Cloudfront.svg",
+        "implies": "Amazon Web Services",
+        "saas": true,
+        "website": "http://aws.amazon.com/cloudfront/"
+    },
+    "Arc": {
+        "cats": [
+            31
+        ],
+        "description": "Arc is a peer-to-peer CDN that pays site owners for using it. Instead of expensive servers in distant datacenters, Arc's network is comprised of browsers.",
+        "dom": "#arc-widget",
+        "icon": "Arc.svg",
+        "js": {
+            "arc.p2pClient": "",
+            "arcWidgetJsonp": ""
+        },
+        "pricing": [
+            "low",
+            "recurring"
+        ],
+        "saas": true,
+        "scriptSrc": "arc\\.io/widget\\.js",
+        "website": "https://arc.io",
+        "xhr": "\\.arc\\.io"
+    },
+    "ArvanCloud": {
+        "cats": [
+            31
+        ],
+        "description": "ArvanCloud is a cloud services provider, offering a wide range of incorporated cloud services including CDN, DDoS mitigation, Cloud Managed DNS, Cloud Security, VoD/AoD Streaming, Live Streaming, Cloud Compute, Cloud Object Storage, and PaaS.",
+        "headers": {
+            "server": "ArvanCloud"
+        },
+        "icon": "ArvanCloud.png",
+        "js": {
+            "ArvanCloud": ""
+        },
+        "website": "http://www.arvancloud.com"
+    },
+    "Azion": {
+        "cats": [
+            31
+        ],
+        "dns": {
+            "CNAME": "azioncdn\\.net\\.?$"
+        },
+        "headers": {
+            "Server": "^Azion "
+        },
+        "icon": "Azion.svg",
+        "pricing": [
+            "poa",
+            "payg"
+        ],
+        "saas": true,
+        "website": "https://www.azion.com/"
+    },
+    "Azure CDN": {
+        "cats": [
+            31
+        ],
+        "description": "Azure Content Delivery Network (CDN) reduces load times, save bandwidth and speed responsiveness.",
+        "headers": {
+            "X-EC-Debug": "",
+            "server": "^(?:ECAcc|ECS|ECD)"
+        },
+        "icon": "azure.svg",
+        "implies": "Azure",
+        "website": "https://azure.microsoft.com/en-us/services/cdn/"
+    },
+    "Bunny": {
+        "cats": [
+            31
+        ],
+        "headers": {
+            "Server": "^BunnyCDN"
+        },
+        "icon": "Bunny.png",
+        "website": "https://bunny.net"
+    },
+    "CDN77": {
+        "cats": [
+            31
+        ],
+        "description": "CDN77 is a content delivery network (CDN).",
+        "headers": {
+            "Server": "^CDN77-Turbo$"
+        },
+        "icon": "CDN77.png",
+        "website": "https://www.cdn77.com"
+    },
+    "CacheFly": {
+        "cats": [
+            31
+        ],
+        "description": "CacheFly is a content delivery network (CDN) which offers CDN service that relies solely on IP anycast for routing, rather than DNS based global load balancing.",
+        "headers": {
+            "Server": "^CFS ",
+            "X-CF1": "",
+            "X-CF2": ""
+        },
+        "icon": "CacheFly.svg",
+        "website": "http://www.cachefly.com"
+    },
+    "Cloudflare": {
+        "cats": [
+            31
+        ],
+        "cookies": {
+            "__cfduid": ""
+        },
+        "description": "Cloudflare is a web-infrastructure and website-security company, providing content-delivery-network services, DDoS mitigation, Internet security, and distributed domain-name-server services.",
+        "headers": {
+            "Server": "^cloudflare$",
+            "cf-cache-status": "",
+            "cf-ray": ""
+        },
+        "icon": "CloudFlare.svg",
+        "js": {
+            "CloudFlare": ""
+        },
+        "website": "http://www.cloudflare.com"
+    },
+    "CreateJS": {
+        "cats": [
+            31
+        ],
+        "description": "CreateJS is a suite of modular libraries and tools which work together or independently to enable interactive content on open web technologies via HTML5.",
+        "icon": "CreateJS.svg",
+        "saas": true,
+        "scriptSrc": "code\\.createjs\\.com/",
+        "website": "https://code.createjs.com"
+    },
+    "DERAK.CLOUD": {
+        "cats": [
+            31
+        ],
+        "cookies": {
+            "__derak_auth": "",
+            "__derak_user": ""
+        },
+        "headers": {
+            "Derak-Umbrage": "",
+            "Server": "^DERAK\\.CLOUD$"
+        },
+        "icon": "DerakCloud.png",
+        "js": {
+            "derakCloud.init": ""
+        },
+        "website": "https://derak.cloud"
+    },
+    "EdgeCast": {
+        "cats": [
+            31
+        ],
+        "description": "EdgeCast is a content delivery network (CDN) that accelerated and delivers static content to users around the world.",
+        "headers": {
+            "Server": "^ECD\\s\\(\\S+\\)"
+        },
+        "icon": "EdgeCast.png",
+        "url": "https?://(?:[^/]+\\.)?edgecastcdn\\.net/",
+        "website": "http://www.edgecast.com"
+    },
+    "Fastly": {
+        "cats": [
+            31
+        ],
+        "description": "Fastly is a cloud computing services provider. Fastly's cloud platform provides a content delivery network, Internet security services, load balancing, and video & streaming services.",
+        "headers": {
+            "Fastly-Debug-Digest": "",
+            "Vary": "Fastly-SSL",
+            "X-Fastly-Request-ID": "",
+            "x-fastly-origin": "",
+            "x-via-fastly:": ""
+        },
+        "icon": "Fastly.svg",
+        "pricing": [
+            "payg"
+        ],
+        "website": "https://www.fastly.com",
+        "xhr": "\\.fastly\\.net"
+    },
+    "Fireblade": {
+        "cats": [
+            31
+        ],
+        "headers": {
+            "Server": "fbs"
+        },
+        "icon": "Fireblade.png",
+        "website": "http://fireblade.com"
+    },
+    "GoCache": {
+        "cats": [
+            31
+        ],
+        "description": "GoCache is an in-memory key:value store/cache similar to memcached that is suitable for applications running on a single machine.",
+        "headers": {
+            "Server": "^gocache$",
+            "X-GoCache-CacheStatus": ""
+        },
+        "icon": "GoCache.png",
+        "website": "https://www.gocache.com.br/"
+    },
+    "Google Cloud": {
+        "cats": [
+            31
+        ],
+        "cpe": "cpe:/a:google:cloud_platform",
+        "description": "Google Cloud is a suite of cloud computing services.",
+        "headers": {
+            "Via": "^1\\.1 google$"
+        },
+        "icon": "google_cloud.svg",
+        "website": "https://cloud.google.com"
+    },
+    "Google Hosted Libraries": {
+        "cats": [
+            31
+        ],
+        "description": "Google Hosted Libraries is a stable, reliable, high-speed, globally available content distribution network for the most popular, open-source JavaScript libraries.",
+        "dom": "link[href*='ajax.googleapis.com/ajax/libs']",
+        "icon": "Google Developers.svg",
+        "scriptSrc": "ajax\\.googleapis\\.com/ajax/libs/",
+        "website": "https://developers.google.com/speed/libraries"
+    },
+    "Incapsula": {
+        "cats": [
+            31
+        ],
+        "description": "Incapsula is a cloud-based application delivery platform. It uses a global content delivery network to provide web application security, DDoS mitigation, content caching, application delivery, load balancing and failover services.",
+        "headers": {
+            "X-CDN": "Incapsula"
+        },
+        "icon": "Incapsula.png",
+        "website": "http://www.incapsula.com"
+    },
+    "KeyCDN": {
+        "cats": [
+            31
+        ],
+        "description": "KeyCDN is a content delivery network (CDN).",
+        "headers": {
+            "Server": "^keycdn-engine$"
+        },
+        "icon": "KeyCDN.png",
+        "website": "http://www.keycdn.com"
+    },
+    "MaxCDN": {
+        "cats": [
+            31
+        ],
+        "description": "MaxCDN is a content delivery network, which accelerates web-sites and decreases the server load.",
+        "headers": {
+            "Server": "^NetDNA",
+            "X-CDN-Forward": "^maxcdn$"
+        },
+        "icon": "MaxCDN.png",
+        "website": "http://www.maxcdn.com"
+    },
+    "Microsoft Ajax Content Delivery Network": {
+        "cats": [
+            31
+        ],
+        "description": "Microsoft Ajax Content Delivery Network hosts popular third party JavaScript libraries such as jQuery and enables you to easily add them to your web applications.",
+        "icon": "Microsoft.svg",
+        "scriptSrc": "ajax\\.aspnetcdn\\.com/ajax/",
+        "website": "https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview"
+    },
+    "MizbanCloud": {
+        "cats": [
+            31
+        ],
+        "description": "MizbanCloud is a total cloud infrastructure solutions, CDN service provider and Cloud Computing Services, Cloud DNS, Cloud Security, VoD Streaming Service, Live Streaming, Cloud Object Storage.",
+        "headers": {
+            "server": "^MizbanCloud$"
+        },
+        "icon": "MizbanCloud.svg",
+        "pricing": [
+            "payg"
+        ],
+        "website": "https://mizbancloud.com"
+    },
+    "Section.io": {
+        "cats": [
+            31
+        ],
+        "description": "Section.io is a Content Delivery Network (CDN).",
+        "headers": {
+            "section-io-id": "",
+            "section-io-origin-status": "",
+            "section-io-origin-time-seconds": ""
+        },
+        "icon": "sectionio.svg",
+        "website": "https://www.section.io"
+    },
+    "Sotoon": {
+        "cats": [
+            31
+        ],
+        "description": "Sotoon is a CDN provider serving users specially in the MENA region.",
+        "headers": {
+            "server": "^Sotoon$"
+        },
+        "icon": "Sotoon.svg",
+        "pricing": [
+            "high",
+            "recurring",
+            "payg",
+            "poa"
+        ],
+        "saas": true,
+        "website": "https://sotoon.ir"
+    },
+    "StackPath": {
+        "cats": [
+            31
+        ],
+        "description": "StackPath is a cloud computing and services provider.",
+        "headers": {
+            "x-backend-server": "hosting\\.stackcp\\.net$",
+            "x-provided-by": "^StackCDN(?: ([\\d.]+))?\\;version:\\1"
+        },
+        "icon": "StackPath.svg",
+        "website": "https://www.stackpath.com"
+    },
+    "Statically": {
+        "cats": [
+            31
+        ],
+        "headers": {
+            "Server": "^statically$"
+        },
+        "html": "<link [^>]*?href=\"?[a-z]*?:?//cdn\\.statically\\.io/",
+        "icon": "Statically.svg",
+        "website": "https://statically.io"
+    },
+    "Unpkg": {
+        "cats": [
+            31
+        ],
+        "description": "Unpkg is a content delivery network for everything on npm.",
+        "dom": "link[href*='unpkg.com']",
+        "icon": "Unpkg.png",
+        "oss": true,
+        "scriptSrc": "unpkg\\.com/",
+        "website": "https://unpkg.com"
+    },
+    "Uploadcare": {
+        "cats": [
+            31
+        ],
+        "description": "Uploadcare is a complete file handling platform for online business. Receive files from you users via File Uploader or File Upload API, implement image optimization and transformations with Image CDN API, and get HIPAA-compliant storage.",
+        "dom": "img[src*='.ucarecdn.com/'], link[href*='ucarecdn.com'], img[data-src*='.ucarecdn.com/']",
+        "icon": "Uploadcare.svg",
+        "js": {
+            "uploadcare.version": "^([\\d\\.]+)$\\;version:\\1"
+        },
+        "pricing": [
+            "freemium",
+            "payg"
+        ],
+        "website": "https://uploadcare.com"
+    },
+    "Wangsu": {
+        "cats": [
+            31
+        ],
+        "description": "Wangsu is a China-based company that provides content delivery network and internet data center services.",
+        "icon": "Wangsu.png",
+        "js": {
+            "__cdnRoute": "^wangsu$",
+            "playurl.wangsu": ""
+        },
+        "website": "https://en.wangsu.com"
+    },
+    "Yandex.Cloud CDN": {
+        "cats": [
+            31
+        ],
+        "description": "Yandex.Cloud CDN helps you streamline static content delivery for your web service.",
+        "dom": "[href*='storage.yandexcloud.net'], [src*='storage.yandexcloud.net']",
+        "icon": "Yandex.Cloud.svg",
+        "implies": "Yandex.Cloud",
+        "website": "https://cloud.yandex.com/en/services/cdn"
+    },
+    "cdnjs": {
+        "cats": [
+            31
+        ],
+        "description": "cdnjs is a free distributed JS library delivery service.",
+        "icon": "cdnjs.svg",
+        "oss": true,
+        "scriptSrc": "cdnjs\\.cloudflare\\.com",
+        "website": "https://cdnjs.com"
+    },
+    "jQuery CDN": {
+        "cats": [
+            31
+        ],
+        "description": "jQuery CDN is a way to include jQuery in your website without actually downloading and keeping it your website's folder.",
+        "icon": "jQuery.svg",
+        "implies": "jQuery",
+        "scriptSrc": "code\\.jquery\\.com/",
+        "website": "https://code.jquery.com/"
+    },
+    "jsDelivr": {
+        "cats": [
+            31
+        ],
+        "description": "JSDelivr is a free public CDN for open-source projects. It can serve web files directly from the npm registry and GitHub repositories without any configuration.",
+        "dom": "link[href*='cdn.jsdelivr.net']",
+        "icon": "jsdelivr-icon.svg",
+        "scriptSrc": "cdn\\.jsdelivr\\.net",
+        "website": "https://www.jsdelivr.com/",
+        "xhr": "cdn\\.jsdelivr\\.net"
+    }
+}
