@@ -1,4 +1,4 @@
-# CDN Detector
+# CDN Guesser
 
 Enter the URL of the site and it will guess what CDN the site is using.
 We have used [Wappalyzer](https://github.com/wappalyzer/wappalyzer) for the determining conditions.
