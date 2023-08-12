@@ -1,5 +1,7 @@
 # CDN Guesser
 
+![CDN](https://github.com/rihib/cdn-guesser/assets/76939037/0c547ce2-b650-4360-966d-d88b9b5efe35)
+
 Enter the URL of the site and it will guess what CDN the site is using.
 Partially uses data from [Wappalyzer](https://github.com/wappalyzer/wappalyzer).
 
