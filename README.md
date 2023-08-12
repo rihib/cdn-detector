@@ -1,7 +1,7 @@
 # CDN Guesser
 
 Enter the URL of the site and it will guess what CDN the site is using.
-We have used [Wappalyzer](https://github.com/wappalyzer/wappalyzer) for the determining conditions.
+Partially uses data from [Wappalyzer](https://github.com/wappalyzer/wappalyzer).
 
 You can use it locally as follows, and it has been tested with Python 3.11. If you are using older Python, the package may fail to install.
 Operation is quite slow, please be patient until the name of the CDN comes up.
