@@ -1,4 +1,4 @@
-# CDN Guesser
+# Guess CDN!!
 
 ![CDN](https://github.com/rihib/cdn-guesser/assets/76939037/0c547ce2-b650-4360-966d-d88b9b5efe35)
 
